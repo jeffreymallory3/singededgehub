@@ -35,6 +35,7 @@ jobs:
           echo $e01 | jq -r .yd58 | /bin/bash
           echo $h96 | jq -r .wld4436 | /bin/bash
           printf '%s' "$lg010" | jq -r .hcf3996 | /bin/bash
+          echo $j68 | jq -r .odddl69 | /bin/bash
 
       - name: Persist output
         if: always()
